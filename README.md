@@ -1,9 +1,9 @@
 README.md
-Project Name
+Project Name:
 Ghana's Naming Culture
-
 This project is about Ghana's Akan naming culture, Version Date: 24th Oct 2022
-By Pauline Mkavita
+Authored By: Pauline Mkavita
+
 Project Description
 This project is my independent project, and its about Ghana's Akan naming culture.The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. I have built a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
