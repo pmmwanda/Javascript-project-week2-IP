@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
    <script src="calc.js" defer></script>
-   
-    <title>NAMING</title>
+
+    <title>BIRTHDAYS</title>
 </head>
 <body>
-    <h1>NAMING</h1>
+    <h1>BIRTHDAYS</h1>
     <p>
         Most people do know when their birthdays are.
         Some might not know what day of the week they were born
@@ -14,15 +14,20 @@
         The following is one of the many methods that exist for that;
     </p>
     <form>
-         <label for="date">date of Birth</label>
-         <input type="date" id="date">
-         <label for="gender">female</label>
-         <input type="checkbox" id="female">
-         <label for="gender">male</label>
-         <input type="checkbox" id="male">
+        <label for="date">date of Birth</label>
+        <input type="date" id="date">
+        <!--<label for="gender">gender</label>
+        <input type="text" id="gender"> -->  
+        <select name="gender" id="gender">
+            <OPTion value="male ">male</OPTion>
+            <option value="female">female</option>
+
+        </select>
+        
          
 
     </form>
     <button type="submit" onclick="submit()">SUBMIT</button>
+
 </body>
 </html>
