@@ -1,6 +1,6 @@
 README.md
 Project Name
-Ghana's Akan Naming Culture
+Ghana's Naming Culture
 
 This project is about Ghana's Akan naming culture, Version Date: 24th Oct 2022
 By Pauline Mkavita
