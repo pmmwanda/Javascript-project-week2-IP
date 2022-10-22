@@ -24,7 +24,7 @@ Support and contact details
 If you need any assistance on any issues or have questions, ideas or concerns. Kindly contact me through email: mkavitapauline@gmail.com to make a contribution to the code or for any assistance on the app/project.
 
 Github URL Link
-To view project click : https://github.io.com/pmmwanda/Javascript-project1.git
+To view project click : https://pmmwanda.github.io/Javascript-project1/
 
 License
 The License used is GPL
