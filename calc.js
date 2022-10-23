@@ -1,104 +1,56 @@
-const submit= () => {
-//retrieve elements
-const dateElement = document.getElementById("date")
-const genderElement = document.getElementById("gender")
-//const maleElement = document.getElementById("male")
+function akanNames() {
+  /*WORKING LIST */
+  var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; //List of days of the week
+  var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]; //List of female names
+  var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]; //List of male names
 
-//retrieving input values
+  /*USER GUIDE*/
+  var dateInput = prompt("Enter date of birth (YYYY-MM-DD):");
 
-//const date = dateElement.value;
-//const gender = genderElement.value;
-//const male = maleElement.value
+  /*DATE VARIABLES*/
+  var birthDate = new Date(dateInput);//uses the variable dateInputfrom the user to create a calender date
+  var exactdate = birthDate.getDay();//pick the day from the date object
+  var birthMonth = birthDate.getMonth();//picks the month from the object
+  var birthYear = birthDate.getFullYear();// picks the month from the object
 
-//const submit = ( date,gender)
+  /*ACCESS THE NAME LIST BY DATES*/
+  var genderFemale = femaleNames[exactdate];
+  var genderMale = maleNames[exactdate];
 
-// retrieving input values
+  /*TO CAPTURE WRONG DATES*/
+  if (
 
-var date = dateElement.value; 
-const gender = genderElement.value;
+    exactname >= 0 &&
+    exactname <= 7 &&
+    birthMonth >= 0 &&
+    birthMonth <= 12 &&
+    dateInput.length === 10 &&
+    birthYear >= 1000
+  ) {
 
-// day of the week function
-// Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
-// date = cc-yy-mm-dd
-// Retrieve the date values from the date of birth for us to run the day of the week function
-// convert date values to number
+    var sex = prompt("Enter your Gender (M/F):").toUpperCase(); //takes the user gender and convert it to toUpperCase
+    /* TO CAPTURE WRONG GENDER*/
 
-    const submit = [date,gender]
+    if (sex === "M" || sex === "F" || sex === "MALE" || sex === "FEMALE") {
 
-    var CC = Number(date.slice(0,2));
+      if (sex === "M") {
+        document.getElementById("myFeedback").innerHTML = "Your Akan name is " + genderMale;
+        // alert("Your Akan name is " + genderMale);
 
-    var YY = Number (date.slice(2,4));
+      }
 
-    var MM = Number (date.slice(5,7));
-
-    var DD = Number (date.slice(8,10));
-
-//     const dates = [CC, YY, MM, DD]
-
-// console.log(date)
-// 
-
-
-    var dayOfTheWeek = Math.floor((((CC/4)-2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD)%7);
-    
-    
-//    days of the week
-
-    const daysOfTheWeek = [
-        "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-      ];
- 
-    //   male Akan names
-      const maleNames = [
-        "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
-      ];
-
-// female Akan names
-      const femaleNames = [
-        "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
-      ];
- 
-
-    //   male name get function
-
-   
-
-    var index;
-    
-        if (dayOfTheWeek == 0){
-                    index = 6;
-                }
-               else {
-               index = dayOfTheWeek - 1;
-              }
-  
-// date of birth validation
-
-    if (date == '') {
-    alert('please enter a valid date of birth')
-    }
-else{
-
-    console.log()
-}
-    if (gender == 'null'){
-        alert('please select your gender')
+      else {
+        document.getElementById("myFeedback").innerHTML = "Your Akan name is " + genderFemale;
+        // alert("Your Akan name is " + genderFemale);
+      }
 
     }
-
-
-        if (gender == "Male") {
-              document.getElementById("results").textContent = ('You were born on' + daysOfTheWeek[index] + 'Your Akan Name is' + maleNames[index])
-                } 
-        else {
-        document.getElementById("results").textContent = ('You were born on a' + daysOfTheWeek[index] + 'You Akan Name is' + femaleNames[index])
-
-
-
-
-console.log(submit)
-
+    else {
+      alert("Invalid Gender use F/M");
+    }
+  }
+  else {
+    alert("WRONG DATE FORMAT. PLEASE USE YYYY-MM-DD\nExample: 2022-10-08");
+  }
 }
 
-
-}
