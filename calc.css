@@ -30,6 +30,7 @@ div {
   img {
     float: left;
     margin: 10px;
+    border-bottom: blue;
   }
 
 
