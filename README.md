@@ -38,7 +38,7 @@ Support and contact details:
 
 If you need any assistance on any issues or have questions, ideas or concerns. Kindly contact me through my email: mkavitapauline@gmail.com to make a contribution to the code or for any assistance on the app/project.
 
-Github URL Link To view project click : https://pmmwanda.github.io/Javascript-project1/
+Github URL Link To view project click : https://pmmwanda.github.io/Javascript-project-week2-IP/
 
 License
 The License used is GPL
