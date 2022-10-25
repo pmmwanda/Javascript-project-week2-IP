@@ -15,8 +15,16 @@ h2{
     color: mediumblue;
 }
 p{
-    
+    font-family:'Arial Narrow Bold';
+    font-style: italic;
 }
+
+div {
+    width: 550px;
+    border: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
 
 
 
