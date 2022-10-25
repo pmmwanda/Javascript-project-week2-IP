@@ -12,11 +12,11 @@ This project is my independent project, and its about Ghana's Akan naming cultur
 
 Setup/Installation Requirements:
 
-Github Link : https://github.com/pmmwanda/Javascript-project1.git
+Github Link : https://github.com/pmmwanda/Javascript-project-week2-IP.git
 
 Launch code on VS code
 
-Launch on live link:https://pmmwanda.github.io/Javascript-project1/
+Launch on live link:https://github.com/pmmwanda/Javascript-project-week2-IP
 
 BDD:
 
