@@ -25,6 +25,10 @@ div {
     padding: 5px;
     margin: 5px;
   }
+  img {
+    float: left;
+    margin: 10px;
+  }
 
 
 
