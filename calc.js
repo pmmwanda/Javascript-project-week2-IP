@@ -1,5 +1,6 @@
 function akanNames() {
   /*WORKING LIST */
+
   var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; //List of days of the week
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]; //List of female names
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]; //List of male names
@@ -20,8 +21,8 @@ function akanNames() {
   /*TO CAPTURE WRONG DATES*/
   if (
 
-    exactname >= 0 &&
-    exactname <= 7 &&
+    exactdate >= 0 &&
+    exactdate <= 7 &&
     birthMonth >= 0 &&
     birthMonth <= 12 &&
     dateInput.length === 10 &&
@@ -50,7 +51,7 @@ function akanNames() {
     }
   }
   else {
-    alert("WRONG DATE FORMAT. PLEASE USE YYYY-MM-DD\nExample: 2022-10-08");
+    alert("WRONG DATE FORMAT. PLEASE USE YYYY-MM-DD\nExample: 2022-10-23");
   }
 }
 
