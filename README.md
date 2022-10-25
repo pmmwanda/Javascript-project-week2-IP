@@ -12,8 +12,6 @@ This project is my independent project, and its about Ghana's Akan naming cultur
 
 Setup/Installation Requirements:
 
-Github Link : https://github.com/pmmwanda/Javascript-project-week2-IP.git
-
 Launch code on VS code
 
 Github URL Link To view project click:https://github.com/pmmwanda/Javascript-project-week2-IP
