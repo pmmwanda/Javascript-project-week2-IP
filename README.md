@@ -16,7 +16,9 @@ Github Link : https://github.com/pmmwanda/Javascript-project-week2-IP.git
 
 Launch code on VS code
 
-Launch on live link:https://github.com/pmmwanda/Javascript-project-week2-IP
+Github URL Link To view project click:https://github.com/pmmwanda/Javascript-project-week2-IP
+
+ Live link: https://pmmwanda.github.io/Javascript-project-week2-IP/
 
 BDD:
 
@@ -38,7 +40,6 @@ Support and contact details:
 
 If you need any assistance on any issues or have questions, ideas or concerns. Kindly contact me through my email: mkavitapauline@gmail.com to make a contribution to the code or for any assistance on the app/project.
 
-Github URL Link To view project click : https://pmmwanda.github.io/Javascript-project-week2-IP/
 
 License
 The License used is GPL
