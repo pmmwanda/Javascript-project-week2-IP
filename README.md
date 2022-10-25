@@ -2,7 +2,7 @@ Project Name:
 
 Ghana's Naming Culture
 
-This project is about Ghana's Akan naming culture, Version Date: 24th Oct 2022
+This project is about Ghana's Akan naming culture, Version Date: 25th Oct 2022
 
 Authored By: Pauline Mkavita
 
@@ -12,13 +12,18 @@ This project is my independent project, and its about Ghana's Akan naming cultur
 
 Setup/Installation Requirements:
 
-Git clone: https://github.com/pmmwanda/Javascript-project1.git
+Github Link : https://github.com/pmmwanda/Javascript-project1.git
+
 Launch code on VS code
+
 Launch on live link:https://pmmwanda.github.io/Javascript-project1/
 
 BDD:
+
 See a small description of what the application does on the landing page.
+
 Enter birthday through a form and select gender.
+
 Click the submit button to see what my Akan name would be.
 
 Known Bugs
@@ -33,8 +38,7 @@ Support and contact details:
 
 If you need any assistance on any issues or have questions, ideas or concerns. Kindly contact me through my email: mkavitapauline@gmail.com to make a contribution to the code or for any assistance on the app/project.
 
-Github URL Link
-To view project click : https://pmmwanda.github.io/Javascript-project1/
+Github URL Link To view project click : https://pmmwanda.github.io/Javascript-project1/
 
 License
 The License used is GPL
